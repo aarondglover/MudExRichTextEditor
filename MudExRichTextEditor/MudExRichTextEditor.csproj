@@ -38,10 +38,38 @@
       <PackagePath>\</PackagePath>
     </None>
     <None Include="bundleconfig.json" />
-    <!--<None Include="wwwroot\avatar.jpeg">
+    <None Include="wwwroot\js\components\MudExRichTextEdit.js">
       <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>-->
+      <PackagePath>wwwroot\js\components</PackagePath>
+    </None>
+    <None Include="wwwroot\js\components\MudExRichTextEdit.min.js">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\js\components</PackagePath>
+    </None>
+    <None Include="wwwroot\modules\quill-better-table.min.js">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\modules</PackagePath>
+    </None>
+    <None Include="wwwroot\modules\quill-blot-formatter.min.js">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\modules</PackagePath>
+    </None>
+    <None Include="wwwroot\modules\quill.imageCompressor.min.js">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\modules</PackagePath>
+    </None>
+    <None Include="wwwroot\modules\quill.mention.min.js">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\modules</PackagePath>
+    </None>
+    <None Include="wwwroot\lib\quill\quill.mention.css">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\lib\quill</PackagePath>
+    </None>
+    <None Include="wwwroot\css\quill.better.table.css">
+      <Pack>True</Pack>
+      <PackagePath>wwwroot\css</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
